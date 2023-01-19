@@ -1,12 +1,14 @@
 import Head from 'next/head'
 
 const cover = (
-  <div className="w-screen h-screen flex flex-col">
+  <div style={{
+    backgroundImage: 'url(/sample_cover.jpg)',
+  }} className="w-screen h-screen flex flex-col">
     <div id="logo" className="">
-      <h1>Isabella Captured</h1>
+      <h1 className="cursive-text font-bold text-xl">Isabella Captured</h1>
     </div>
     <div className="flex-grow grid place-items-center">
-      <div className="flex flex-row border border-slate-800 space-x-8">
+      <div className="flex flex-row space-x-8 text-4xl cursive-text italic">
         <h1>Create.</h1>
         <h1>Capture.</h1>
         <h1>Forever.</h1>
